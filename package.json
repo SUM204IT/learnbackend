@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon src/index.js"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/SUM204IT/learnbackend.git"
   },
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/SUM204IT/learnbackend#readme",
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   }
 }
