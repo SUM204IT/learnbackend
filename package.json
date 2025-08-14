@@ -1,21 +1,24 @@
 {
   "name": "chaiaurbackend",
   "version": "1.0.0",
-  "description": "",
+  "description": "a backend at chai aur code channel",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "git+https://github.com/SUM204IT/learnbackend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/SUM204IT/learnbackend/issues"
   },
-  "homepage": "https://github.com/SUM204IT/learnbackend#readme"
+  "homepage": "https://github.com/SUM204IT/learnbackend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
